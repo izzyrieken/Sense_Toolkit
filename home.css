@@ -1,0 +1,146 @@
+* {
+  margin:0;
+  padding:0;
+}
+
+h1{
+  margin-top: 20pt;
+  text-align: center;
+  font-size: 55pt;
+  color: #fff1db;
+  font-family: cooper-black-std,serif;
+  font-weight: 400;
+  font-style: normal;
+  letter-spacing: 0.04em
+
+}
+
+
+body{
+  background-image: url('Bpaper2.jpg');
+  text-align: center;
+  font-family: neuzeit-grotesk,sans-serif;
+  font-weight: 400;
+  font-style: normal;
+
+}
+
+img{
+  /* height:65px; */
+
+}
+
+p{
+  /* font-family: sofia-pro, sans-serif; */
+  /* padding: 4pt; */
+  text-align: center;
+  font-size: 15pt;
+  color: #fff1db;
+  letter-spacing: 0.04em
+}
+
+.star{
+    height:65px;
+
+
+    /* animation-name: spin; */
+    animation: spin 3s linear infinite;
+    /* animation-iteration-count: infinite; */
+    transform-origin: 50% 50%;
+    display: inline-block;
+
+    /* <--- */
+}
+
+
+@keyframes spin {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+.star2{
+    height:200px;
+    margin-top: 100pt;
+
+
+    animation: wiggle;
+    animation-duration: .5s;
+    /* Things added */
+    animation-iteration-count: infinite;
+
+    transform-origin: 50% 50%;
+    display: inline-block;
+
+    animation-play-state: paused;
+    /* <--- */
+
+}
+
+.star2:hover{
+  animation-play-state: running;
+  color:black;
+}
+
+@keyframes wiggle {
+    0% {
+        transform: rotate(0deg);
+    }
+    50% {
+        transform: rotate(6deg);
+    }
+    100% {
+        transform: rotate(0deg);
+    }
+
+}
+
+/* #star2: hover{
+  animation-play-state: running;
+
+} */
+
+
+
+
+
+/* .navbar{
+  margin-top: 22px;
+
+
+}
+
+.nav{
+  margin: auto;
+  width: 100%;
+  display: inline-block;
+  text-align: center;
+} */
+
+li {
+  display: inline;
+}
+
+iframe {
+  padding: 50pt;
+}
+
+.navitem{
+  color: #fff1db;
+  text-align: center;
+  font-family: cooper-black-std,serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 20pt;
+  list-style-type: none;
+  margin: auto 90px;
+  text-decoration: none;
+}
+
+.navitem:hover{
+  color: #ebc634;
+  font-style: italic;
+}
