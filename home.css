@@ -22,17 +22,81 @@ body{
   font-family: neuzeit-grotesk,sans-serif;
   font-weight: 400;
   font-style: normal;
+  z-index: 0;
 
 }
 
-img{
-  /* height:65px; */
+.face{
+  width: 100%;
+  position: relative;
+}
+
+.square{
+  /* margin-left: auto;
+  margin-right: auto; */
+
+  position: absolute;
+  text-align: center;
+  width:800px;
+
+  /* margin-left: auto;
+  margin-right: auto; */
+  right:400px;
+  z-index: 1;
+
 
 }
+
+.ear{
+  width:500px;
+  position: absolute;
+  top:-70px;
+  right: 350px;
+  z-index: 2;
+}
+
+.eye{
+  width:300px;
+  position: absolute;
+  top:10px;
+  left: 600px;
+  transform: rotate(110deg);
+  z-index: 2;
+}
+
+.lips{
+  width:420px;
+  position: absolute;
+  top:380px;
+  left: 450px;
+  transform: rotate(110deg);
+  z-index: 2;
+}
+
+.nose{
+  width:320px;
+  position: absolute;
+  top:230px;
+  left: 600px;
+  transform: rotate(35deg);
+  z-index: 2;
+}
+
+.hand{
+  width:560px;
+  position: absolute;
+  top:400px;
+  right: 350px;
+  transform: rotate(-30deg);
+  z-index: 2;
+}
+
+
 
 p{
   /* font-family: sofia-pro, sans-serif; */
   /* padding: 4pt; */
+  padding-bottom: 10pt;
   text-align: center;
   font-size: 15pt;
   color: #fff1db;
