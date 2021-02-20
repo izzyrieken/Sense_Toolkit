@@ -1,0 +1,170 @@
+* {
+  margin:0;
+  padding:0;
+
+}
+
+
+h1{
+  margin-top: 20pt;
+  text-align: center;
+  font-size: 55pt;
+  color: #fff1db;
+  font-family: cooper-black-std,serif;
+  font-weight: 400;
+  font-style: normal;
+  letter-spacing: 0.04em
+
+}
+
+
+body{
+  background-image: url('Bpaper2.jpg');
+  text-align: center;
+  font-family: neuzeit-grotesk,sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  z-index: 0;
+}
+
+.shapes{
+  width:100%;
+  position: relative;
+}
+
+.O1{
+  position: absolute;
+  width:16%;
+  margin: auto 10%;
+  padding-bottom: 50px;
+}
+
+.P3{
+  position: absolute;
+  width:16%;
+  transform: rotate(90deg);
+  margin-top: 100px;
+  margin-left: 550px;
+}
+
+.G1{
+  position: absolute;
+  width:21%;
+  margin-top: 540px;
+  margin-left: 50px;
+
+}
+
+.grey{
+  position: absolute;
+  width:11%;
+  margin-top: 250px;
+  margin-left: 170px;
+  transform: rotate(-90deg);
+}
+
+.Y2{
+  position: absolute;
+  width:16%;
+  margin-top: 500px;
+  margin-left: 550px;
+  transform: rotate(-10deg);
+}
+
+.orange{
+  position: absolute;
+  width:16%;
+  margin-top: 500px;
+  margin-left: 550px;
+  transform: rotate(-90deg);
+
+}
+
+
+@keyframes wiggle {
+    0% {
+        transform: rotate(0deg);
+    }
+    50% {
+        transform: rotate(4deg);
+    }
+    100% {
+        transform: rotate(0deg);
+    }
+
+}
+
+@keyframes wiggle_eye {
+    0% {
+        transform: rotate(110deg);
+    }
+    50% {
+        transform: rotate(114deg);
+    }
+    100% {
+        transform: rotate(110deg);
+    }
+
+}
+
+@keyframes wiggle_nose {
+    0% {
+        transform: rotate(40deg);
+    }
+    50% {
+        transform: rotate(44deg);
+    }
+    100% {
+        transform: rotate(40deg);
+    }
+
+}
+
+@keyframes spin {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+
+
+/* .navbar{
+  margin-top: 22px;
+
+
+}
+
+.nav{
+  margin: auto;
+  width: 100%;
+  display: inline-block;
+  text-align: center;
+} */
+
+li {
+  display: inline;
+}
+
+iframe {
+  padding: 50pt;
+}
+
+.navitem{
+  color: #fff1db;
+  text-align: center;
+  font-family: cooper-black-std,serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 20pt;
+  list-style-type: none;
+  margin: auto 90px;
+  text-decoration: none;
+}
+
+.navitem:hover{
+  color: #ebc634;
+  font-style: italic;
+}
