@@ -53,6 +53,16 @@ body{
   top:-70px;
   right: 350px;
   z-index: 2;
+
+  animation: wiggle;
+  animation-duration: .5s;
+  animation-iteration-count: infinite;
+  transform-origin: 50% 50%;
+  animation-play-state: paused;
+}
+
+.ear:hover{
+  animation-play-state: running;
 }
 
 .eye{
@@ -60,8 +70,18 @@ body{
   position: absolute;
   top:10px;
   left: 600px;
-  transform: rotate(110deg);
+  /* transform: rotate(110deg); */
   z-index: 2;
+
+  animation: wiggle_eye;
+  animation-duration: .5s;
+  animation-iteration-count: infinite;
+  transform-origin: 50% 50%;
+  animation-play-state: paused;
+}
+
+.eye:hover{
+  animation-play-state: running;
 }
 
 .lips{
@@ -71,6 +91,16 @@ body{
   left: 450px;
   transform: rotate(110deg);
   z-index: 2;
+
+  animation: wiggle_eye;
+  animation-duration: .5s;
+  animation-iteration-count: infinite;
+  transform-origin: 50% 50%;
+  animation-play-state: paused;
+}
+
+.lips:hover{
+  animation-play-state: running;
 }
 
 .nose{
@@ -78,8 +108,18 @@ body{
   position: absolute;
   top:230px;
   left: 600px;
-  transform: rotate(35deg);
+  /* transform: rotate(35deg); */
   z-index: 2;
+
+  animation: wiggle_nose;
+  animation-duration: .5s;
+  animation-iteration-count: infinite;
+  transform-origin: 50% 50%;
+  animation-play-state: paused;
+}
+
+.nose:hover{
+  animation-play-state: running;
 }
 
 .hand{
@@ -89,8 +129,17 @@ body{
   right: 350px;
   transform: rotate(-30deg);
   z-index: 2;
+
+  animation: wiggle;
+  animation-duration: .5s;
+  animation-iteration-count: infinite;
+  transform-origin: 50% 50%;
+  animation-play-state: paused;
 }
 
+.hand:hover{
+  animation-play-state: running;
+}
 
 
 p{
@@ -117,36 +166,21 @@ p{
 }
 
 
-@keyframes spin {
-    0% {
-        transform: rotate(0deg);
-    }
-    100% {
-        transform: rotate(360deg);
-    }
-}
-
 .star2{
     height:200px;
     margin-top: 100pt;
-
+    display: inline-block;
 
     animation: wiggle;
     animation-duration: .5s;
-    /* Things added */
     animation-iteration-count: infinite;
-
     transform-origin: 50% 50%;
-    display: inline-block;
-
     animation-play-state: paused;
-    /* <--- */
 
 }
 
 .star2:hover{
   animation-play-state: running;
-  color:black;
 }
 
 @keyframes wiggle {
@@ -154,12 +188,47 @@ p{
         transform: rotate(0deg);
     }
     50% {
-        transform: rotate(6deg);
+        transform: rotate(4deg);
     }
     100% {
         transform: rotate(0deg);
     }
 
+}
+
+@keyframes wiggle_eye {
+    0% {
+        transform: rotate(110deg);
+    }
+    50% {
+        transform: rotate(114deg);
+    }
+    100% {
+        transform: rotate(110deg);
+    }
+
+}
+
+@keyframes wiggle_nose {
+    0% {
+        transform: rotate(40deg);
+    }
+    50% {
+        transform: rotate(44deg);
+    }
+    100% {
+        transform: rotate(40deg);
+    }
+
+}
+
+@keyframes spin {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
 }
 
 /* #star2: hover{
