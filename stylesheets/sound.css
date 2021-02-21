@@ -37,6 +37,16 @@ body{
   width:16%;
   margin: auto 10%;
   padding-bottom: 50px;
+
+  animation: wiggle;
+  animation-duration: .5s;
+  animation-iteration-count: infinite;
+  transform-origin: 50% 50%;
+  animation-play-state: paused;
+}
+
+.B4:hover{
+  animation-play-state: running;
 }
 
 .black{
@@ -45,6 +55,16 @@ body{
   transform: rotate(90deg);
   margin-top: 100px;
   margin-left: 550px;
+
+  animation: wiggle;
+  animation-duration: .5s;
+  animation-iteration-count: infinite;
+  transform-origin: 50% 50%;
+  animation-play-state: paused;
+}
+
+.black:hover{
+  animation-play-state: running;
 }
 
 .P4{
@@ -53,6 +73,15 @@ body{
   margin-top: 540px;
   margin-left: 50px;
 
+  animation: wiggle;
+  animation-duration: .5s;
+  animation-iteration-count: infinite;
+  transform-origin: 50% 50%;
+  animation-play-state: paused;
+}
+
+.P4:hover{
+  animation-play-state: running;
 }
 
 .O8{
@@ -61,6 +90,16 @@ body{
   margin-top: 250px;
   margin-left: 170px;
   transform: rotate(-90deg);
+
+  animation: wiggle;
+  animation-duration: .5s;
+  animation-iteration-count: infinite;
+  transform-origin: 50% 50%;
+  animation-play-state: paused;
+}
+
+.O8:hover{
+  animation-play-state: running;
 }
 
 .Y4{
@@ -69,6 +108,16 @@ body{
   margin-top: 500px;
   margin-left: 550px;
   transform: rotate(-10deg);
+
+  animation: wiggle;
+  animation-duration: .5s;
+  animation-iteration-count: infinite;
+  transform-origin: 50% 50%;
+  animation-play-state: paused;
+}
+
+.Y4:hover{
+  animation-play-state: running;
 }
 
 .O5{
@@ -78,6 +127,15 @@ body{
   margin-left: 550px;
   transform: rotate(-90deg);
 
+  animation: wiggle;
+  animation-duration: .5s;
+  animation-iteration-count: infinite;
+  transform-origin: 50% 50%;
+  animation-play-state: paused;
+}
+
+.O5:hover{
+  animation-play-state: running;
 }
 
 
