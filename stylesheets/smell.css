@@ -28,8 +28,8 @@ body{
 }
 
 .shapes{
-  width:100%;
-  position: relative;
+  margin: auto;
+  width: 50%;
 }
 
 .B1{

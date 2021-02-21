@@ -32,14 +32,14 @@ body{
   width: 50%;
 }
 
-.B3{
+.B2{
   position: absolute;
   width:16%;
   margin: auto 10%;
   padding-bottom: 50px;
 }
 
-.black{
+.B5{
   position: absolute;
   width:16%;
   transform: rotate(90deg);
@@ -47,7 +47,7 @@ body{
   margin-left: 550px;
 }
 
-.G2{
+.O2{
   position: absolute;
   width:21%;
   margin-top: 540px;
@@ -55,7 +55,7 @@ body{
 
 }
 
-.O6{
+.Y4{
   position: absolute;
   width:11%;
   margin-top: 250px;
@@ -63,7 +63,7 @@ body{
   transform: rotate(-90deg);
 }
 
-.O7{
+.P5{
   position: absolute;
   width:16%;
   margin-top: 500px;
@@ -71,7 +71,7 @@ body{
   transform: rotate(-10deg);
 }
 
-.P2{
+.G4{
   position: absolute;
   width:16%;
   margin-top: 500px;
