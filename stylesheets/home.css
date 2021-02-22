@@ -17,6 +17,8 @@ h1{
 
 
 body{
+  width: 100%;
+  height: 100%;
   background-image: url('Bpaper2.jpg');
   text-align: center;
   font-family: neuzeit-grotesk,sans-serif;
@@ -28,6 +30,7 @@ body{
 
 .face{
   width: 100%;
+  height: 100%;
   position: relative;
 }
 
@@ -36,23 +39,21 @@ body{
   margin-right: auto; */
 
   position: absolute;
-  text-align: center;
+  /* text-align: center; */
   /* width:800px; */
   width:48%;
-
-  /* margin-left: auto;
-  margin-right: auto; */
-  right:400px;
+  right: 25%;
+  /* right:400px; */
   z-index: 1;
 
 
 }
 
 .ear{
-  width:500px;
+  width:30%;
   position: absolute;
   top:-70px;
-  right: 350px;
+  right: 22%;
   z-index: 2;
 
   animation: wiggle;
@@ -67,10 +68,10 @@ body{
 }
 
 .eye{
-  width:300px;
+  width:18%;
   position: absolute;
   top:10px;
-  left: 600px;
+  left: 35%;
   /* transform: rotate(110deg); */
   z-index: 2;
 
@@ -89,7 +90,7 @@ body{
   width:420px;
   position: absolute;
   top:380px;
-  left: 450px;
+  left: 27%;
   transform: rotate(110deg);
   z-index: 2;
 
@@ -105,10 +106,10 @@ body{
 }
 
 .nose{
-  width:320px;
+  width:18%;
   position: absolute;
   top:230px;
-  left: 600px;
+  left: 33%;
   /* transform: rotate(35deg); */
   z-index: 2;
 
@@ -124,10 +125,10 @@ body{
 }
 
 .hand{
-  width:560px;
+  width:33%;
   position: absolute;
   top:400px;
-  right: 350px;
+  right: 20%;
   transform: rotate(-30deg);
   z-index: 2;
 

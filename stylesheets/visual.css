@@ -29,14 +29,16 @@ body{
 
 .shapes{
   margin: auto;
-  width: 50%;
+  width: 100%;
+  height:100%;
+  position: relative;
 }
 
 .B2{
   position: absolute;
-  width:16%;
-  margin: auto 10%;
-  padding-bottom: 50px;
+  width:20%;
+  left:13%;
+  top:100px;
 
   animation: wiggle;
   animation-duration: .5s;
@@ -51,10 +53,9 @@ body{
 
 .B5{
   position: absolute;
-  width:16%;
-  transform: rotate(90deg);
-  margin-top: 100px;
-  margin-left: 550px;
+  width:20%;
+  top: 420px;
+  right: 12%;
 
   animation: wiggle;
   animation-duration: .5s;
@@ -70,10 +71,10 @@ body{
 .O2{
   position: absolute;
   width:21%;
-  margin-top: 540px;
-  margin-left: 50px;
+  top: 345px;
+  right: 34%;
 
-  animation: wiggle;
+  animation: wiggle_green;
   animation-duration: .5s;
   animation-iteration-count: infinite;
   transform-origin: 50% 50%;
@@ -86,12 +87,11 @@ body{
 
 .Y4{
   position: absolute;
-  width:11%;
-  margin-top: 250px;
-  margin-left: 170px;
-  transform: rotate(-90deg);
+  width:14%;
+  top:400px;
+  left: 24%;
 
-  animation: wiggle;
+  animation: wiggle_yellow;
   animation-duration: .5s;
   animation-iteration-count: infinite;
   transform-origin: 50% 50%;
@@ -104,12 +104,12 @@ body{
 
 .P5{
   position: absolute;
-  width:16%;
-  margin-top: 500px;
-  margin-left: 550px;
-  transform: rotate(-10deg);
+  width:14%;
+  top: 60px;
+  right: 25%;
 
-  animation: wiggle;
+
+  animation: wiggle_pink;
   animation-duration: .5s;
   animation-iteration-count: infinite;
   transform-origin: 50% 50%;
@@ -122,12 +122,12 @@ body{
 
 .G4{
   position: absolute;
-  width:16%;
-  margin-top: 500px;
-  margin-left: 550px;
-  transform: rotate(-90deg);
+  width:17%;
+  top: 90px;
+  left: 35%;
 
-  animation: wiggle;
+
+  animation: wiggle_green;
   animation-duration: .5s;
   animation-iteration-count: infinite;
   transform-origin: 50% 50%;
@@ -152,15 +152,41 @@ body{
 
 }
 
-@keyframes wiggle_eye {
+@keyframes wiggle_yellow {
     0% {
-        transform: rotate(110deg);
+        transform: rotate(-86deg);
     }
     50% {
-        transform: rotate(114deg);
+        transform: rotate(-90deg);
     }
     100% {
-        transform: rotate(110deg);
+        transform: rotate(-86deg);
+    }
+
+}
+
+@keyframes wiggle_pink {
+    0% {
+        transform: rotate(96deg);
+    }
+    50% {
+        transform: rotate(100deg);
+    }
+    100% {
+        transform: rotate(96deg);
+    }
+
+}
+
+@keyframes wiggle_green {
+    0% {
+        transform: rotate(186deg);
+    }
+    50% {
+        transform: rotate(190deg);
+    }
+    100% {
+        transform: rotate(186deg);
     }
 
 }
