@@ -78,6 +78,15 @@ body{
   height: 54px;
 }
 
+.blind_date{
+  position: absolute;
+  text-align: center;
+  top: 300px;
+  right:21%;
+  font-size: 30pt;
+  color: #4d4c4b;
+}
+
 .Blinds{
   position: absolute;
   text-align: left;
