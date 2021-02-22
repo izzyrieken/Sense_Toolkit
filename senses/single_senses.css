@@ -36,6 +36,15 @@ body{
   height: 100%;
 }
 
+.AC_date{
+  position: absolute;
+  text-align: center;
+  top: 40px;
+  left:40%;
+  font-size: 30pt;
+  color: #4d4c4b;
+}
+
 .AC_audio {
   position: absolute;
   top: 85px;
