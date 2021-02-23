@@ -113,7 +113,7 @@ body{
   position: absolute;
   width:16%;
   margin-top: 500px;
-  margin-left: 550px;
+  left:10%;
   transform: rotate(-10deg);
 
   animation: wiggle;
