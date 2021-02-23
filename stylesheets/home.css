@@ -56,7 +56,23 @@ body{
   left: 13%;
   font-family: 'handwriting', serif;
   color: black;
+  line-height: 0.7em;
   font-size: 40pt;
+}
+
+.random_click{
+  position: absolute;
+  width:17%;
+  top:370px;
+  left: 14.5%;
+  font-family: 'handwriting', serif;
+  color: black;
+  line-height: 0.7em;
+  font-size: 30pt;
+}
+
+.random_click:hover{
+  color: #FA8072;
 }
 
 .face{

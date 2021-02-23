@@ -1,0 +1,672 @@
+* {
+  margin:0;
+  padding:0;
+
+}
+@font-face {
+  font-family: 'handwriting';
+  src: url('Senses_2-Regular.ttf')  format('truetype'); /* Safari, Android, iOS */
+  src: url('Senses_2-Regular.otf')  format('opentype'); /* Safari, Android, iOS */
+}
+
+.top{
+  width:100%;
+  height:10%;
+  position: relative;
+}
+
+.home{
+  position: absolute;
+  text-align: left;
+  left:50px;
+  top: 30px;
+  font-size: 30pt;
+  color: black;
+  font-family: 'handwriting', serif;
+}
+
+.home:hover{
+  color: #fff1db;
+}
+
+h1{
+  position: absolute;
+  top: 20px;
+  left:38%;
+  text-align: center;
+  font-size: 55pt;
+  color: #fff1db;
+  /* font-family: cooper-black-std,serif; */
+  font-family: 'handwriting', serif;
+  font-weight: 400;
+  font-style: normal;
+  letter-spacing: 0.04em
+
+}
+
+
+body{
+  background-image: url('Bpaper2.jpg');
+  text-align: center;
+  font-family: neuzeit-grotesk,sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  z-index: 0;
+}
+
+.all_shapes{
+  margin-top: 25px;
+  /* margin: auto; */
+  width: 100%;
+  height:100%;
+  position: relative;
+}
+
+.B1{
+  position: absolute;
+  width:10%;
+  left:31%;
+  top:170px;
+
+
+  animation: wiggle;
+  animation-duration: .5s;
+  animation-iteration-count: infinite;
+  transform-origin: 50% 50%;
+  animation-play-state: paused;
+}
+
+.B1:hover{
+  animation-play-state: running;
+}
+
+.black2{
+  position: absolute;
+  width:10%;
+  top: 630px;
+  right: 20%;
+
+  animation: wiggle_black;
+  animation-duration: .5s;
+  animation-iteration-count: infinite;
+  transform-origin: 50% 50%;
+  animation-play-state: paused;
+}
+
+.black2:hover{
+  animation-play-state: running;
+}
+
+.G3{
+  position: absolute;
+  width:10%;
+  top: 200px;
+  right:15%;
+
+  animation: wiggle;
+  animation-duration: .5s;
+  animation-iteration-count: infinite;
+  transform-origin: 50% 50%;
+  animation-play-state: paused;
+}
+
+.G3:hover{
+  animation-play-state: running;
+}
+
+.O3{
+  position: absolute;
+  width:6%;
+  top: 630px;
+  left:17%;
+  transform: rotate(-90deg);
+
+  animation: wiggle_O6;
+  animation-duration: .5s;
+  animation-iteration-count: infinite;
+  transform-origin: 50% 50%;
+  animation-play-state: paused;
+}
+
+.O3:hover{
+  animation-play-state: running;
+}
+
+.P1{
+  position: absolute;
+  width:9%;
+  top: 500px;
+  right:40%;
+
+
+  animation: wiggle_pink;
+  animation-duration: .5s;
+  animation-iteration-count: infinite;
+  transform-origin: 50% 50%;
+  animation-play-state: paused;
+}
+
+.P1:hover{
+  animation-play-state: running;
+}
+
+.Y1{
+  position: absolute;
+  width:10%;
+  top: 170px;
+  left:19%;
+
+
+  animation: wiggle;
+  animation-duration: .5s;
+  animation-iteration-count: infinite;
+  transform-origin: 50% 50%;
+  animation-play-state: paused;
+}
+
+.Y1:hover{
+  animation-play-state: running;
+}
+
+.B4{
+  position: absolute;
+  width:10%;
+  top: 470px;
+  left: 40%;
+
+  animation: wiggle;
+  animation-duration: .5s;
+  animation-iteration-count: infinite;
+  transform-origin: 50% 50%;
+  animation-play-state: paused;
+}
+
+.B4:hover{
+  animation-play-state: running;
+}
+
+.black{
+  position: absolute;
+  width:10%;
+  transform: rotate(90deg);
+  top: 300px;
+  right:31%;
+
+  animation: wiggle_black;
+  animation-duration: .5s;
+  animation-iteration-count: infinite;
+  transform-origin: 50% 50%;
+  animation-play-state: paused;
+}
+
+.black:hover{
+  animation-play-state: running;
+}
+
+.P4{
+  position: absolute;
+  width:7%;
+  top: 440px;
+  left: 14%;;
+
+  animation: wiggle_pink;
+  animation-duration: .5s;
+  animation-iteration-count: infinite;
+  transform-origin: 50% 50%;
+  animation-play-state: paused;
+}
+
+.P4:hover{
+  animation-play-state: running;
+}
+
+.O8{
+  position: absolute;
+  width:8%;
+  top: 100px;
+  right: 7%;
+
+
+  animation: wiggle;
+  animation-duration: .5s;
+  animation-iteration-count: infinite;
+  transform-origin: 50% 50%;
+  animation-play-state: paused;
+}
+
+.O8:hover{
+  animation-play-state: running;
+}
+
+.Y4{
+  position: absolute;
+  width:9%;
+  top: 340px;
+  right: 20%;
+  transform: rotate(-10deg);
+
+  animation: wiggle;
+  animation-duration: .5s;
+  animation-iteration-count: infinite;
+  transform-origin: 50% 50%;
+  animation-play-state: paused;
+}
+
+.Y4:hover{
+  animation-play-state: running;
+}
+
+.O5{
+  position: absolute;
+  width:5%;
+  top: 330px;
+  right: 13%;
+
+
+  animation: wiggle;
+  animation-duration: .5s;
+  animation-iteration-count: infinite;
+  transform-origin: 50% 50%;
+  animation-play-state: paused;
+}
+
+.O5:hover{
+  animation-play-state: running;
+}
+
+.B3{
+  position: absolute;
+  width:9%;
+  top:10px;
+  left:46%;
+
+  animation: wiggle;
+  animation-duration: .5s;
+  animation-iteration-count: infinite;
+  transform-origin: 50% 50%;
+  animation-play-state: paused;
+}
+
+.B3:hover{
+  animation-play-state: running;
+}
+
+.black{
+  position: absolute;
+  width:10%;
+  transform: rotate(90deg);
+  top: 450px;
+  left: 26%;
+
+  animation: wiggle;
+  animation-duration: .5s;
+  animation-iteration-count: infinite;
+  transform-origin: 50% 50%;
+  animation-play-state: paused;
+}
+
+.black:hover{
+  animation-play-state: running;
+}
+
+.G2{
+  position: absolute;
+  width:10%;
+  top: 580px;
+  left: 28%;
+
+  animation: wiggle;
+  animation-duration: .5s;
+  animation-iteration-count: infinite;
+  transform-origin: 50% 50%;
+  animation-play-state: paused;
+}
+
+.G2:hover{
+  animation-play-state: running;
+}
+
+.O6{
+  position: absolute;
+  width:5%;
+  top: 550px;
+  right:37%;
+  transform: rotate(-90deg);
+
+  animation: wiggle_O6;
+  animation-duration: .5s;
+  animation-iteration-count: infinite;
+  transform-origin: 50% 50%;
+  animation-play-state: paused;
+}
+
+.O6:hover{
+  animation-play-state: running;
+}
+
+.O7{
+  position: absolute;
+  width:10%;
+  margin-top: 280px;
+  left:32%;
+
+
+  animation: wiggle;
+  animation-duration: .5s;
+  animation-iteration-count: infinite;
+  transform-origin: 50% 50%;
+  animation-play-state: paused;
+}
+
+.O7:hover{
+  animation-play-state: running;
+}
+
+.P2{
+  position: absolute;
+  width:6%;
+  top: 50px;
+  right:29%;
+
+
+  animation: wiggle;
+  animation-duration: .5s;
+  animation-iteration-count: infinite;
+  transform-origin: 50% 50%;
+  animation-play-state: paused;
+}
+
+.P2:hover{
+  animation-play-state: running;
+}
+
+.O1{
+  position: absolute;
+  width:10%;
+  left:13%;
+
+  animation: wiggle;
+  animation-duration: .5s;
+  animation-iteration-count: infinite;
+  transform-origin: 50% 50%;
+  animation-play-state: paused;
+}
+
+.O1:hover{
+  animation-play-state: running;
+}
+
+.P3{
+  position: absolute;
+  width:9.5%;
+  top: 530px;
+  right:10%;
+
+  animation: wiggle;
+  animation-duration: .5s;
+  animation-iteration-count: infinite;
+  transform-origin: 50% 50%;
+  animation-play-state: paused;
+}
+
+.P3:hover{
+  animation-play-state: running;
+}
+
+.G1{
+  position: absolute;
+  width:8%;
+  top:200px;
+  left:5%;
+
+  animation: wiggle_black;
+  animation-duration: .5s;
+  animation-iteration-count: infinite;
+  transform-origin: 50% 50%;
+  animation-play-state: paused;
+}
+
+.G1:hover{
+  animation-play-state: running;
+}
+
+.grey{
+  position: absolute;
+  width:5.5%;
+  top: 50px;
+  left: 39%;
+
+  animation: wiggle_grey;
+  animation-duration: .5s;
+  animation-iteration-count: infinite;
+  transform-origin: 50% 50%;
+  animation-play-state: paused;
+}
+
+.grey:hover{
+  animation-play-state: running;
+}
+
+.Y2{
+  position: absolute;
+  width:6%;
+  top: 20px;
+  right:37%;
+  transform: rotate(-10deg);
+
+  animation: wiggle;
+  animation-duration: .5s;
+  animation-iteration-count: infinite;
+  transform-origin: 50% 50%;
+  animation-play-state: paused;
+}
+
+.Y2:hover{
+  animation-play-state: running;
+}
+
+.orange{
+  position: absolute;
+  width:10%;
+  top:500px;
+  right:30%;
+
+  animation: wiggle;
+  animation-duration: .5s;
+  animation-iteration-count: infinite;
+  transform-origin: 50% 50%;
+  animation-play-state: paused;
+}
+
+.orange:hover{
+  animation-play-state: running;
+}
+
+.B2{
+  position: absolute;
+  width:10%;
+  left:12%;
+  top:300px;
+
+  animation: wiggle;
+  animation-duration: .5s;
+  animation-iteration-count: infinite;
+  transform-origin: 50% 50%;
+  animation-play-state: paused;
+}
+
+.B2:hover{
+  animation-play-state: running;
+}
+
+.B5{
+  position: absolute;
+  width:10%;
+  top: 20px;
+  right:16%;
+
+  animation: wiggle;
+  animation-duration: .5s;
+  animation-iteration-count: infinite;
+  transform-origin: 50% 50%;
+  animation-play-state: paused;
+}
+
+.B5:hover{
+  animation-play-state: running;
+}
+
+.O2{
+  position: absolute;
+  width:8.5%;
+  top: 280px;
+  right: 37%;
+
+  animation: wiggle;
+  animation-duration: .5s;
+  animation-iteration-count: infinite;
+  transform-origin: 50% 50%;
+  animation-play-state: paused;
+}
+
+.O2:hover{
+  animation-play-state: running;
+}
+
+/* .Y4{
+  position: absolute;
+  width:10%;
+  top:400px;
+  right: 29%;
+
+  animation: wiggle;
+  animation-duration: .5s;
+  animation-iteration-count: infinite;
+  transform-origin: 50% 50%;
+  animation-play-state: paused;
+}
+
+.Y4:hover{
+  animation-play-state: running;
+} */
+
+.P5{
+  position: absolute;
+  width:7%;
+  top: 0px;
+  left: 26%;
+
+
+  animation: wiggle_pink;
+  animation-duration: .5s;
+  animation-iteration-count: infinite;
+  transform-origin: 50% 50%;
+  animation-play-state: paused;
+}
+
+.P5:hover{
+  animation-play-state: running;
+}
+
+.G4{
+  position: absolute;
+  width:10%;
+  top: 250px;
+  left: 44%;
+
+
+  animation: wiggle;
+  animation-duration: .5s;
+  animation-iteration-count: infinite;
+  transform-origin: 50% 50%;
+  animation-play-state: paused;
+}
+
+.G4:hover{
+  animation-play-state: running;
+}
+
+@keyframes wiggle {
+    0% {
+        transform: rotate(0deg);
+    }
+    50% {
+        transform: rotate(4deg);
+    }
+    100% {
+        transform: rotate(0deg);
+    }
+
+}
+
+@keyframes wiggle_blue {
+    0% {
+        transform: rotate(90deg);
+    }
+    50% {
+        transform: rotate(94deg);
+    }
+    100% {
+        transform: rotate(90deg);
+    }
+
+}
+
+@keyframes wiggle_pink {
+    0% {
+        transform: rotate(90deg);
+    }
+    50% {
+        transform: rotate(94deg);
+    }
+    100% {
+        transform: rotate(90deg);
+    }
+
+}
+
+@keyframes wiggle_black {
+    0% {
+        transform: rotate(-38deg);
+    }
+    50% {
+        transform: rotate(-42deg);
+    }
+    100% {
+        transform: rotate(-38deg);
+    }
+
+}
+
+@keyframes wiggle_O6 {
+  0% {
+      transform: rotate(90deg);
+  }
+  50% {
+      transform: rotate(94deg);
+  }
+  100% {
+      transform: rotate(90deg);
+  }
+}
+
+@keyframes wiggle_grey {
+  0% {
+      transform: rotate(-20deg);
+  }
+  50% {
+      transform: rotate(-24deg);
+  }
+  100% {
+      transform: rotate(-20deg);
+  }
+}
+
+@keyframes spin {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
