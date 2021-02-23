@@ -841,3 +841,61 @@ body{
   right: 30%;
   z-index: 2;
 }
+
+/* shampoo */
+.shampoo_parts{
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+
+.shampoo_date{
+  position: absolute;
+  text-align: center;
+  transform: rotate(90deg);
+  top:180px;
+  right:20%;
+  font-size: 25pt;
+  color: #fff1db;
+  z-index: 3;
+}
+
+.shampoo{
+  position: absolute;
+  text-align: left;
+  font-size: 20pt;
+  color: #fff1db;
+  top: 230px;
+  width: 20%;
+  height: 50%;
+  left: 33%;
+  z-index: 5;
+}
+
+.shampoo_pic1{
+  position: absolute;
+  transform: rotate(35deg);
+  width: 18%;
+  right:33%;
+  top:340px;
+  z-index: 3;
+}
+
+.shampoo_pic2{
+  position: absolute;
+  width: 22%;
+  right:30%;
+  top:20px;
+  z-index: 2;
+}
+
+.box15{
+  position: absolute;
+  transform: rotate(0deg);
+  transform: scaleX(-1);
+  width: 25%;
+  top: 150px;
+  left: 30%;
+  z-index: 4;
+}
