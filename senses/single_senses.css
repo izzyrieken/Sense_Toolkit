@@ -1229,9 +1229,9 @@ body{
 
 .geese_video{
   position: absolute;
-  width: 25%;
-  right:28%;
-  top:200px;
+  width: 15%;
+  right:30%;
+  top:150px;
   z-index: 2;
   /* clip: rect(0px,100px,200px,100px) */
 }
