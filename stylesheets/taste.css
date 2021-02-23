@@ -98,9 +98,9 @@ body{
 
 .G2{
   position: absolute;
-  width:21%;
+  width:20%;
   top: 500px;
-  left: 23%;
+  left: 20%;
 
   animation: wiggle_green;
   animation-duration: .5s;
