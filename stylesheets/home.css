@@ -36,6 +36,29 @@ body{
 
 }
 
+.speech_bubble{
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+
+.bubble{
+  position: absolute;
+  width:20%;
+  top:200px;
+  left: 13%;
+}
+
+.clickme{
+  position: absolute;
+  width:20%;
+  top:270px;
+  left: 13%;
+  font-family: 'handwriting', serif;
+  color: black;
+  font-size: 40pt;
+}
+
 .face{
   width: 100%;
   height: 100%;
