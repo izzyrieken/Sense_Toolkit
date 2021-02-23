@@ -99,7 +99,8 @@ body{
 .ear{
   width:30%;
   position: absolute;
-  top:-70px;
+  /* top:-70px; */
+  top: -4%;
   right: 22%;
   z-index: 2;
 
@@ -117,7 +118,7 @@ body{
 .eye{
   width:18%;
   position: absolute;
-  top:10px;
+  top:1%;
   left: 35%;
   /* transform: rotate(110deg); */
   z-index: 2;
@@ -136,7 +137,8 @@ body{
 .lips{
   width:25%;
   position: absolute;
-  top:380px;
+  /* top:380px; */
+  top:42%;
   left: 27%;
   transform: rotate(110deg);
   z-index: 2;
@@ -155,7 +157,8 @@ body{
 .nose{
   width:18%;
   position: absolute;
-  top:230px;
+  /* top:230px; */
+  top:25%;
   left: 33%;
   /* transform: rotate(35deg); */
   z-index: 2;
@@ -174,7 +177,8 @@ body{
 .hand{
   width:33%;
   position: absolute;
-  top:400px;
+  /* top:400px; */
+  top:42%;
   right: 20%;
   transform: rotate(-30deg);
   z-index: 2;
@@ -325,4 +329,26 @@ iframe {
 .navitem:hover{
   color: #ebc634;
   font-style: italic;
+}
+
+/* media queries */
+
+@media screen and (max-width: 1400px) {
+  .clickme{
+    font-size:25pt;
+  }
+
+  .random_click{
+    font-size:25pt;
+  }
+}
+
+@media screen and (max-width: 1300px) {
+  .clickme{
+    font-size:25pt;
+  }
+
+  .random_click{
+    font-size:25pt;
+  }
 }
