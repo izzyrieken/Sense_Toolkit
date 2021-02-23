@@ -549,3 +549,50 @@ body{
   width: 28%;
   z-index: 1;
 }
+
+/* keys */
+.keys_parts{
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+.keys_date{
+  position: absolute;
+  text-align: center;
+  top: 40px;
+  left:40%;
+  font-size: 30pt;
+  color: black;
+  z-index: 2;
+}
+
+.keys_audio {
+  position: absolute;
+  top: 85px;
+  left:33%;
+  width: 600px;
+  height: 54px;
+  z-index: 2;
+}
+
+.keys{
+  position: absolute;
+  text-align: left;
+  font-size: 27pt;
+  color: black;
+  top: 180px;
+  width: 18%;
+  height: 50%;
+  right:45%;
+  z-index: 2;
+}
+
+.box7{
+  position: absolute;
+  top: 20px;
+  right: 37%;
+
+  width: 28%;
+  z-index: 1;
+}
