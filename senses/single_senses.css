@@ -1007,3 +1007,51 @@ body{
   right: 27%;
   z-index: 4;
 }
+
+/* snow on geese */
+.geese_parts{
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+
+.geese_date{
+  position: absolute;
+  text-align: center;
+  top: 530px;
+  right:28%;
+  font-size: 25pt;
+  color: #fff1db;
+}
+
+.geese{
+  position: absolute;
+  text-align: left;
+  font-size: 25pt;
+  color: #fff1db;
+  top: 110px;
+  width: 20%;
+  height: 50%;
+  left: 26%;
+  z-index: 4;
+}
+
+.geese_video{
+  position: absolute;
+  width: 25%;
+  right:28%;
+  top:200px;
+  z-index: 2;
+  /* clip: rect(0px,100px,200px,100px) */
+}
+
+.box13_2{
+  position: absolute;
+  transform: scaleY(-1);
+  /* transform: rotate(160deg); */
+  width: 30%;
+  top: 10px;
+  right: 47%;
+  z-index: 3;
+}
