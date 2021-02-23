@@ -5,8 +5,8 @@
 
 @font-face {
   font-family: 'handwriting';
-  src: url('Senses-Regular.ttf')  format('truetype'); /* Safari, Android, iOS */
-  src: url('Senses-Regular.otf')  format('opentype'); /* Safari, Android, iOS */
+  src: url('Senses_2-Regular.ttf')  format('truetype'); /* Safari, Android, iOS */
+  src: url('Senses_2-Regular.otf')  format('opentype'); /* Safari, Android, iOS */
 }
 
 /* .top{
@@ -27,7 +27,7 @@
 
 .home:hover{
   color: #fff1db;
-}
+} */
 
 .return_sounds{
   position: absolute;
@@ -41,12 +41,13 @@
 
 .return_sounds:hover{
   color: #fff1db;
-} */
+}
 
 
 h1{
-  /* position: absolute; */
-  margin-  top: 20px;
+
+  margin-top: 20px;
+
   text-align: center;
   font-size: 55pt;
   color: #fff1db;

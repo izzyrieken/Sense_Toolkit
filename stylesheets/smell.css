@@ -5,8 +5,8 @@
 }
 @font-face {
   font-family: 'handwriting';
-  src: url('Senses-Regular.ttf')  format('truetype'); /* Safari, Android, iOS */
-  src: url('Senses-Regular.otf')  format('opentype'); /* Safari, Android, iOS */
+  src: url('Senses_2-Regular.ttf')  format('truetype'); /* Safari, Android, iOS */
+  src: url('Senses_2-Regular.otf')  format('opentype'); /* Safari, Android, iOS */
 }
 
 .top{
