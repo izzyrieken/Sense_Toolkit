@@ -111,8 +111,8 @@ body{
 .Y4{
   position: absolute;
   width:16%;
-  margin-top: 500px;
-  margin-left: 550px;
+  top: 500px;
+  left: 20%;
   transform: rotate(-10deg);
 
   animation: wiggle;
