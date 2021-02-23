@@ -643,3 +643,50 @@ body{
   left: 30%;
   z-index: 2;
 }
+
+/* flickering light */
+.flicker_parts{
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+
+.flicker_date{
+  position: absolute;
+  text-align: center;
+  top: 530px;
+  left:28%;
+  font-size: 25pt;
+  color: #3d3108;
+}
+
+.flicker{
+  position: absolute;
+  text-align: left;
+  font-size: 25pt;
+  color: #3d3108;
+  top: 140px;
+  width: 17%;
+  height: 50%;
+  right: 28%;
+  z-index: 2;
+}
+
+.flicker_video{
+  position: absolute;
+  width: 25%;
+  left:28%;
+  top:200px;
+  z-index: 2;
+  /* clip: rect(0px,100px,200px,100px) */
+}
+
+.box1{
+  position: absolute;
+  transform: rotate(160deg);
+  width: 30%;
+  top: 10px;
+  left: 47%;
+  z-index: 1;
+}
