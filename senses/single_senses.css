@@ -366,7 +366,7 @@ body{
   top: 40px;
   right:31%;
   font-size: 25pt;
-  color: #57534c;
+  color: black;
 }
 
 .hotpack_pic{
@@ -389,12 +389,12 @@ body{
 .hotpack{
   position: absolute;
   text-align: left;
-  color: #57534c;
+  color: black;
   font-size: 22pt;
   top: 95px;
-  width: 22%;
+  width: 17%;
   height: 50%;
-  left: 26%;
+  left: 32%;
   z-index: 4;
 }
 
