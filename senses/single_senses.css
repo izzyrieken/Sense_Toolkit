@@ -1030,7 +1030,7 @@ body{
   text-align: left;
   font-size: 25pt;
   color: #fff1db;
-  top: 110px;
+  top: 90px;
   width: 20%;
   height: 50%;
   left: 26%;
@@ -1053,5 +1053,54 @@ body{
   width: 30%;
   top: 10px;
   right: 47%;
+  z-index: 3;
+}
+
+/* sunbum */
+.sunbum_parts{
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+
+.sunbum_date{
+  position: absolute;
+  text-align: right;
+  top: 600px;
+  right:28%;
+  font-size: 20pt;
+  color: #fff1db;
+  z-index: 4;
+}
+
+.sunbum{
+  position: absolute;
+  text-align: right;
+  font-size: 25pt;
+  color: #fff1db;
+  top: 120px;
+  width: 17%;
+  height: 50%;
+  right: 27%;
+  z-index: 4;
+}
+
+.sunbum_video{
+  position: absolute;
+  width: 25%;
+  left:28%;
+  top:200px;
+  z-index: 2;
+  /* clip: rect(0px,100px,200px,100px) */
+}
+
+.box8_2{
+  position: absolute;
+
+  /* transform: rotate(160deg); */
+  width: 21%;
+  top: 10px;
+  right: 25%;
   z-index: 3;
 }
