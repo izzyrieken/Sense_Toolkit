@@ -842,6 +842,53 @@ body{
   z-index: 2;
 }
 
+/* ocean */
+.ocean_parts{
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+
+.ocean_date{
+  position: absolute;
+  text-align: center;
+  top: 580px;
+  left:30.5%;
+  font-size: 18pt;
+  color: #1f3478;
+}
+
+.ocean{
+  position: absolute;
+  text-align: right;
+  font-size: 23pt;
+  color: #1f3478;
+  top: 110px;
+  width: 21%;
+  height: 50%;
+  right: 29%;
+  z-index: 3;
+}
+
+.ocean_video{
+  position: absolute;
+  width: 15%;
+  left:30%;
+  top:100px;
+  z-index: 2;
+  /* clip: rect(0px,100px,200px,100px) */
+}
+
+.box9_2{
+  position: absolute;
+  /* transform: rotate(160deg); */
+  width: 30%;
+  top: 20px;
+  left: 47%;
+  z-index: 2;
+}
+
 /* shampoo */
 .shampoo_parts{
   position: relative;
