@@ -44,7 +44,7 @@ body{
 .B2{
   position: absolute;
   width:20%;
-  left:13%;
+  left:18%;
   top:100px;
 
   animation: wiggle;
@@ -62,7 +62,7 @@ body{
   position: absolute;
   width:20%;
   top: 420px;
-  right: 12%;
+  right: 8%;
 
   animation: wiggle;
   animation-duration: .5s;
@@ -79,7 +79,7 @@ body{
   position: absolute;
   width:21%;
   top: 345px;
-  right: 34%;
+  right: 29%;
 
   animation: wiggle_green;
   animation-duration: .5s;
@@ -96,7 +96,7 @@ body{
   position: absolute;
   width:14%;
   top:400px;
-  left: 24%;
+  left: 29%;
 
   animation: wiggle_yellow;
   animation-duration: .5s;
@@ -113,7 +113,7 @@ body{
   position: absolute;
   width:14%;
   top: 60px;
-  right: 25%;
+  right: 20%;
 
 
   animation: wiggle_pink;
@@ -131,7 +131,7 @@ body{
   position: absolute;
   width:17%;
   top: 90px;
-  left: 35%;
+  left: 40%;
 
 
   animation: wiggle_green;
