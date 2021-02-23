@@ -468,33 +468,34 @@ body{
 .kakuni_date{
   position: absolute;
   text-align: center;
-  top: 150px;
-  left:21%;
+  top: 530px;
+  left:28%;
   font-size: 25pt;
-  color: #ba1c70;
+  color: #264a35;
 }
 
 .kakuni{
   position: absolute;
   text-align: right;
   font-size: 25pt;
-  color: #ba1c70;
-  top: 170px;
+  color: #264a35;
+  top: 140px;
   width: 21%;
   height: 50%;
   right: 27%;
   z-index: 2;
 }
 
-.kakuni_pic{
+.kakuni_video{
   position: absolute;
   width: 22%;
   left:28%;
   top:200px;
   z-index: 2;
+  /* clip: rect(0px,100px,200px,100px) */
 }
 
-.box4{
+.box11{
   position: absolute;
   transform: rotate(160deg);
   width: 30%;
