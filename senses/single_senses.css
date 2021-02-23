@@ -690,3 +690,58 @@ body{
   left: 47%;
   z-index: 1;
 }
+
+/* morning light */
+.light_parts{
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+
+.light_date{
+  position: absolute;
+  text-align: center;
+  top: 720px;
+  left: 44%;
+  font-size: 25pt;
+  color: #fff1db;
+  z-index: 3;
+}
+
+.light{
+  position: absolute;
+  text-align: left;
+  font-size: 25pt;
+  color: #fff1db;
+  top: 80px;
+  width: 18%;
+  height: 50%;
+  left: 34%;
+  z-index: 3;
+}
+
+.light_pic1{
+  position: absolute;
+  width: 22%;
+  right:30%;
+  top:140px;
+  z-index: 2;
+}
+
+.light_pic2{
+  position: absolute;
+  width: 22%;
+  right:30%;
+  top:140px;
+  z-index: 2;
+}
+
+.box10{
+  position: absolute;
+  transform: rotate(0deg);
+  width: 25%;
+  top: -20px;
+  left: 30%;
+  z-index: 2;
+}
