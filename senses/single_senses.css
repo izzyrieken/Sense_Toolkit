@@ -162,3 +162,50 @@ body{
   left: 45%;
   z-index: 1;
 }
+
+/* confetti */
+
+.confetti_parts{
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+
+.confetti_date{
+  position: absolute;
+  text-align: center;
+  top: 150px;
+  left:21%;
+  font-size: 25pt;
+  color: #ba1c70;
+}
+
+.confetti{
+  position: absolute;
+  text-align: right;
+  font-size: 25pt;
+  color: #ba1c70;
+  top: 170px;
+  width: 21%;
+  height: 50%;
+  right: 27%;
+  z-index: 2;
+}
+
+.confetti_pic{
+  position: absolute;
+  width: 22%;
+  left:28%;
+  top:200px;
+  z-index: 2;
+}
+
+.box4{
+  position: absolute;
+  transform: rotate(160deg);
+  width: 30%;
+  top: 10px;
+  left: 47%;
+  z-index: 1;
+}
