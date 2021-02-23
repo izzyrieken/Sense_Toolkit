@@ -35,14 +35,16 @@ body{
 
 .shapes{
   margin: auto;
-  width: 50%;
+  width: 100%;
+  height:100%;
+  position: relative;
 }
 
 .B4{
   position: absolute;
   width:16%;
-  margin: auto 10%;
-  padding-bottom: 50px;
+  top: 70px;
+  left: 40%;
 
   animation: wiggle;
   animation-duration: .5s;
@@ -59,10 +61,10 @@ body{
   position: absolute;
   width:16%;
   transform: rotate(90deg);
-  margin-top: 100px;
-  margin-left: 550px;
+  top: 300px;
+  right:31%;
 
-  animation: wiggle;
+  animation: wiggle_black;
   animation-duration: .5s;
   animation-iteration-count: infinite;
   transform-origin: 50% 50%;
@@ -75,11 +77,11 @@ body{
 
 .P4{
   position: absolute;
-  width:21%;
-  margin-top: 540px;
-  margin-left: 50px;
+  width:16%;
+  top: 370px;
+  left: 46%;;
 
-  animation: wiggle;
+  animation: wiggle_pink;
   animation-duration: .5s;
   animation-iteration-count: infinite;
   transform-origin: 50% 50%;
@@ -92,12 +94,12 @@ body{
 
 .O8{
   position: absolute;
-  width:11%;
-  margin-top: 250px;
-  margin-left: 170px;
-  transform: rotate(-90deg);
+  width:14%;
+  top: 10px;
+  left: 23%;
 
-  animation: wiggle;
+
+  animation: wiggle_orange;
   animation-duration: .5s;
   animation-iteration-count: infinite;
   transform-origin: 50% 50%;
@@ -111,7 +113,7 @@ body{
 .Y4{
   position: absolute;
   width:16%;
-  top: 500px;
+  top: 300px;
   left: 20%;
   transform: rotate(-10deg);
 
@@ -128,10 +130,10 @@ body{
 
 .O5{
   position: absolute;
-  width:16%;
-  margin-top: 500px;
-  margin-left: 550px;
-  transform: rotate(-90deg);
+  width:15%;
+  top: 20px;
+  right:19%;
+
 
   animation: wiggle;
   animation-duration: .5s;
@@ -158,30 +160,42 @@ body{
 
 }
 
-@keyframes wiggle_eye {
+@keyframes wiggle_orange {
     0% {
-        transform: rotate(110deg);
+        transform: rotate(-50deg);
     }
     50% {
-        transform: rotate(114deg);
+        transform: rotate(-54deg);
     }
     100% {
-        transform: rotate(110deg);
+        transform: rotate(-50deg);
     }
 
 }
 
-@keyframes wiggle_nose {
+@keyframes wiggle_pink {
     0% {
-        transform: rotate(40deg);
+        transform: rotate(90deg);
     }
     50% {
-        transform: rotate(44deg);
+        transform: rotate(94deg);
     }
     100% {
-        transform: rotate(40deg);
+        transform: rotate(90deg);
     }
 
+}
+
+@keyframes wiggle_black{
+  0% {
+      transform: rotate(-90deg);
+  }
+  50% {
+      transform: rotate(-94deg);
+  }
+  100% {
+      transform: rotate(-90deg);
+  }
 }
 
 @keyframes spin {
