@@ -994,6 +994,56 @@ body{
   z-index: 4;
 }
 
+/* painting hand */
+.paint_parts{
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+
+.paint_date{
+  position: absolute;
+  transform: rotate(90deg);
+  text-align: center;
+  top: 220px;
+  right:21.5%;
+  font-size: 22pt;
+  color: #961c00;
+}
+
+.paint{
+  position: absolute;
+  text-align: left;
+  font-size: 25pt;
+  color: #961c00;
+  top: 320px;
+  width: 17%;
+  height: 50%;
+  left:32%;
+  z-index: 5;
+}
+
+.paint_video{
+  position: absolute;
+  width: 18%;
+  right:32%;
+  top:80px;
+  z-index: 2;
+  /* clip: rect(0px,100px,200px,100px) */
+}
+
+.box10_2{
+  position: absolute;
+  transform: rotate(0deg);
+  transform: scaleX(-1);
+  transform: scaleY(-1);
+  width: 27%;
+  top: 150px;
+  left: 30%;
+  z-index: 4;
+}
+
 /* hair */
 .hair_parts{
   position: relative;
