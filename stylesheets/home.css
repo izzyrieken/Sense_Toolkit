@@ -343,12 +343,66 @@ iframe {
   }
 }
 
-@media screen and (max-width: 1300px) {
-  .clickme{
-    font-size:25pt;
-  }
 
-  .random_click{
-    font-size:25pt;
+@media screen and (min-width: 375px) {
+
+  .lips{
+    top:20%;
+  }
+  .hand{
+    top:20%;
+  }
+  .nose{
+    top:13%;
+  }
+  /* .speech_bubble{
+    display: none;
+  } */
+
+}
+
+
+
+@media screen and (min-width: 800px) {
+
+  .lips{
+    top:26%;
+  }
+  .hand{
+    top:26%;
+  }
+  .nose{
+    top:15%;
+  }
+}
+
+@media screen and (min-width: 992px) {
+
+  .lips{
+    top:37%;
+  }
+  .hand{
+    top:37%;
+  }
+  .nose{
+    top:20%;
+  }
+}
+
+@media screen and (min-width: 1136px) {
+  .eye{
+
+  }
+  .ear{
+
+  }
+  .lips{
+    top:42%;
+  }
+  .hand{
+    top:42%;
+  }
+  .nose{
+    top:25%;
   }
 }
