@@ -71,7 +71,7 @@ body{
   left: 37%;
 
   width: 32%;
-  z-index: 1;
+  z-index: 0;
 }
 
 /* blinds */
@@ -250,7 +250,7 @@ body{
   z-index: 1;
 }
 
-.box2{
+.box2_2{
   position: absolute;
   transform: rotate(0deg);
   width: 30%;
