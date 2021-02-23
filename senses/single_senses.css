@@ -209,3 +209,52 @@ body{
   left: 47%;
   z-index: 1;
 }
+
+/* dad */
+
+.dad_parts{
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+
+.dad_date{
+  position: absolute;
+  text-align: center;
+  transform: rotate(90deg);
+  top: 350px;
+  right:22%;
+  font-size: 25pt;
+  color: #522006;
+}
+
+.dad{
+  position: absolute;
+  text-align: left;
+  font-size: 25pt;
+  color: #522006;
+  top: 50px;
+  width: 21%;
+  height: 50%;
+  left: 27%;
+  z-index: 3;
+}
+
+.dad_pic{
+  position: absolute;
+  transform: rotate(-90deg);
+  width: 30%;
+  right:28%;
+  top:270px;
+  z-index: 1;
+}
+
+.box2{
+  position: absolute;
+  transform: rotate(0deg);
+  width: 30%;
+  top: 10px;
+  left: 25%;
+  z-index: 2;
+}
