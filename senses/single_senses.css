@@ -95,14 +95,14 @@ body{
   top: 300px;
   right:21%;
   font-size: 30pt;
-  color: #4d4c4b;
+  color: black;
 }
 
 .Blinds{
   position: absolute;
   text-align: left;
-  color: #4d4c4b;
-  top: 200px;
+  color: black;
+  top: 150px;
   width: 23%;
   height: 50%;
   left: 25%;
