@@ -747,7 +747,7 @@ body{
 }
 
 /* nails */
-.nails{
+.nails_parts{
   position: relative;
   width: 100%;
   height: 100%;
@@ -786,6 +786,54 @@ body{
 }
 
 .box12{
+  position: absolute;
+  transform: rotate(0deg);
+  width: 25%;
+  top: 300px;
+  right: 30%;
+  z-index: 2;
+}
+
+/* nose */
+.nose_parts{
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+
+.nose_date{
+  position: absolute;
+  text-align: center;
+  transform: rotate(0deg);
+  top:110px;
+  left:31%;
+  font-size: 25pt;
+  color: black;
+  z-index: 3;
+}
+
+.nose{
+  position: absolute;
+  text-align: right;
+  font-size: 24pt;
+  color: #fff1db;
+  top: 200px;
+  width: 18%;
+  height: 50%;
+  right: 28%;
+  z-index: 3;
+}
+
+.nose_pic{
+  position: absolute;
+  width: 22%;
+  left:30%;
+  top:130px;
+  z-index: 2;
+}
+
+.box18{
   position: absolute;
   transform: rotate(0deg);
   width: 25%;
