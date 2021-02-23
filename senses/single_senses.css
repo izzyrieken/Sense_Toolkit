@@ -794,6 +794,53 @@ body{
   z-index: 2;
 }
 
+/* nap mouth */
+.nap_parts{
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+
+.nap_date{
+  position: absolute;
+  text-align: center;
+  top: 560px;
+  left:28%;
+  font-size: 25pt;
+  color: #fff1db;
+  z-index: 3;
+}
+
+.nap{
+  position: absolute;
+  text-align: right;
+  font-size: 22pt;
+  color: #fff1db;
+  top: 170px;
+  width: 21%;
+  height: 50%;
+  right: 31%;
+  z-index: 3;
+}
+
+.nap_pic{
+  position: absolute;
+  width: 25%;
+  left:28%;
+  top:240px;
+  z-index: 2;
+}
+
+.box15_2{
+  position: absolute;
+  transform: rotate(160deg);
+  width: 27%;
+  top: 100px;
+  left: 47%;
+  z-index: 2;
+}
+
 /* nose */
 .nose_parts{
   position: relative;
