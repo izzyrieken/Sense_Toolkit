@@ -9,8 +9,44 @@
   src: url('Senses-Regular.otf')  format('opentype'); /* Safari, Android, iOS */
 }
 
+/* .top{
+  width:100%;
+  height:10%;
+  position: relative;
+}
+
+.home{
+  position: absolute;
+  text-align: left;
+  left:50px;
+  top: 30px;
+  font-size: 30pt;
+  color: black;
+  font-family: 'handwriting', serif;
+}
+
+.home:hover{
+  color: #fff1db;
+}
+
+.return_sounds{
+  position: absolute;
+  text-align: right;
+  right:50px;
+  top: 30px;
+  font-size: 30pt;
+  color: black;
+  font-family: 'handwriting', serif;
+}
+
+.return_sounds:hover{
+  color: #fff1db;
+} */
+
+
 h1{
-  margin-top: 20pt;
+  /* position: absolute; */
+  margin-top: 20px;
   text-align: center;
   font-size: 55pt;
   color: #fff1db;
