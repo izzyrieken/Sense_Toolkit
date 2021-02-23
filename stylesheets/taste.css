@@ -36,14 +36,16 @@ body{
 
 .shapes{
   margin: auto;
-  width: 50%;
+  width: 100%;
+  height:100%;
+  position: relative;
 }
 
 .B3{
   position: absolute;
   width:16%;
-  margin: auto 10%;
-  padding-bottom: 50px;
+  top:10px;
+  left:25%;
 
   animation: wiggle;
   animation-duration: .5s;
@@ -60,8 +62,8 @@ body{
   position: absolute;
   width:16%;
   transform: rotate(90deg);
-  margin-top: 100px;
-  margin-left: 550px;
+  top: 500px;
+  left: 41%;
 
   animation: wiggle;
   animation-duration: .5s;
@@ -77,10 +79,10 @@ body{
 .G2{
   position: absolute;
   width:21%;
-  margin-top: 540px;
-  margin-left: 50px;
+  top: 500px;
+  left: 23%;
 
-  animation: wiggle;
+  animation: wiggle_green;
   animation-duration: .5s;
   animation-iteration-count: infinite;
   transform-origin: 50% 50%;
@@ -93,9 +95,9 @@ body{
 
 .O6{
   position: absolute;
-  width:11%;
-  margin-top: 250px;
-  margin-left: 170px;
+  width:9.5%;
+  top: 50px;
+  right:20%;
   transform: rotate(-90deg);
 
   animation: wiggle;
@@ -111,10 +113,10 @@ body{
 
 .O7{
   position: absolute;
-  width:16%;
-  margin-top: 500px;
-  left:10%;
-  transform: rotate(-10deg);
+  width:15%;
+  margin-top: 170px;
+  left:41%;
+
 
   animation: wiggle;
   animation-duration: .5s;
@@ -129,10 +131,10 @@ body{
 
 .P2{
   position: absolute;
-  width:16%;
-  margin-top: 500px;
-  margin-left: 550px;
-  transform: rotate(-90deg);
+  width:10%;
+  top: 50px;
+  right:32%;
+
 
   animation: wiggle;
   animation-duration: .5s;
@@ -159,15 +161,15 @@ body{
 
 }
 
-@keyframes wiggle_eye {
+@keyframes wiggle_green {
     0% {
-        transform: rotate(110deg);
+        transform: rotate(90deg);
     }
     50% {
-        transform: rotate(114deg);
+        transform: rotate(94deg);
     }
     100% {
-        transform: rotate(110deg);
+        transform: rotate(90deg);
     }
 
 }
