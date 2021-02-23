@@ -514,10 +514,11 @@ body{
 .kakuni_date{
   position: absolute;
   text-align: center;
-  top: 530px;
+  top: 150px;
   left:28%;
   font-size: 25pt;
   color: #264a35;
+  z-index: 4;
 }
 
 .kakuni{
